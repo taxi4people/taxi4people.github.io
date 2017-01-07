@@ -68,7 +68,7 @@
     display: table;
     height: 50px;
     width: 100%;
-    background-color: gray;
+    background-color: rgba(128, 128, 128, 0.5);
     margin: 20px 0;
 
     text-decoration: none;
@@ -77,9 +77,18 @@
 
     font-family: Arial,sans-serif;
     font-size: 18px;
+
+    box-sizing: border-box;
+    border-radius: 4px;
 }
 
-.button_type_download {
+.button_theme_downdload {
+    color: #000;
+    background-color: transparent;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+.button_badge {
     height: 70px;
     background-color: transparent;
     margin: 0;
