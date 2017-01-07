@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256px" height="271px" viewBox="0 0 256 271" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M18.0004205,90.9997973 C17.9003779,68.9085193 35.7209273,51 57.8199976,51 L197.99928,51 C220.091068,51 238,68.9102443 238,90.9997973 L238,231.000203 C238,253.091481 220.086471,271 198.005317,271 L58.810253,271 C36.7217996,271 18.7344618,253.089756 18.6344269,231.000203 L18.0004205,90.9997973 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="219.999999" height="220" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <circle id="path-3" cx="139" cy="31" r="31"></circle>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="62" height="62" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <circle id="path-5" cx="31" cy="31" r="31"></circle>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="62" height="62" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <path d="M156.229474,50.9553535 C154.195347,58.9912011 142.328617,65.1581176 127.993843,65.1581176 C113.774271,65.1581176 101.983233,59.0899243 99.8091549,51.1487306 L118.084825,32.8730609 C121.171546,32.206178 124.509798,31.8418824 127.993843,31.8418824 C131.596063,31.8418824 135.042432,32.2313101 138.216084,32.9419627 L156.229474,50.9553535 Z" id="path-7"></path>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="56.4203193" height="33.3162353" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard">
+            <rect id="Ears-Rectangle" fill-opacity="0.2" fill="#808080" x="0" y="120" width="256" height="75" rx="8"></rect>
+            <use id="Face-Rectangle" stroke="#FBB623" mask="url(#mask-2)" stroke-width="20" fill="#FFDC61" xlink:href="#path-1"></use>
+            <g id="Mouth" transform="translate(53.000000, 185.000000)" fill="#FFFFFF">
+                <rect id="Rectangle-2" x="120" y="0" width="30" height="30"></rect>
+                <rect id="Rectangle-2" x="90" y="30" width="30" height="30"></rect>
+                <rect id="Rectangle-2" x="60" y="0" width="30" height="30"></rect>
+                <rect id="Rectangle-2" x="30" y="30" width="30" height="30"></rect>
+                <rect id="Rectangle-2" x="0" y="0" width="30" height="30"></rect>
+            </g>
+            <g id="Eyes" transform="translate(43.000000, 101.000000)" stroke="#808080" stroke-opacity="0.5" stroke-width="26" fill="#FFFFFF">
+                <use id="Oval" mask="url(#mask-4)" xlink:href="#path-3"></use>
+                <use id="Oval" mask="url(#mask-6)" xlink:href="#path-5"></use>
+            </g>
+            <use id="Combined-Shape" stroke="#A9A8A8" mask="url(#mask-8)" stroke-width="48" xlink:href="#path-7"></use>
+            <circle id="Oval-2" fill="#DEDEDE" cx="128.5" cy="21.5" r="21.5"></circle>
+        </g>
+    </g>
+</svg>

@@ -31,19 +31,26 @@
     vertical-align: middle;
     width: 60px;
     font-size: 40px;
-    font-family: monospace;
+    height: 52px;
+}
+
+.arrow:before {
+    content: '⇨';
+    color: rgba(128, 128, 128, 0.5);
 }
 
 .logo {
     display: inline-block;
     width: 60px;
     height: 60px;
-    vertical-align: middle;
+    vertical-align: bottom;
 }
 
 .logo_type_taxi4people {
-    background-image: url(./images/taxi4people.png);
+    background-image: url(./images/taxi4people.svg);
     background-size: cover;
+    width: 70px;
+    height: 75px;
 }
 
 .logo_mask {
