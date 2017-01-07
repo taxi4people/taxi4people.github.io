@@ -1,3 +1,11 @@
+.button {
+    text-transform: uppercase;
+
+    font-size: 15px;
+    font-family: ff-clan-web-pro-wide,sans-serif;
+    font-weight: 400;
+}
+
 .button_theme_uber {
     background-color: #1eacc7;
 }
@@ -5,4 +13,9 @@
 .button_theme_uber-downdload {
     color: #1eacc7;
     background-color: transparent;
+}
+
+.logo_type_uber {
+    background-image: url(./images/ios.jpg);
+    background-size: cover;
 }

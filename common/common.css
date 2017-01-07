@@ -1,10 +1,17 @@
-.only-ios, .only-android, .only-other {
+.only-ios, .only-android, .only-windows-phone, .only-other, .only-mobile {
     display: none;
 }
 
 .platform-ios .only-ios,
 .platform-android .only-android,
+.platform-windows-phone .only-windows-phone,
 .platform-other .only-other {
+    display: block;
+}
+
+.platform-ios .only-mobile,
+.platform-android .only-mobile,
+.platform-windows-phone .only-mobile {
     display: block;
 }
 
@@ -14,21 +21,62 @@
     margin: 0 auto;
 }
 
+.header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.arrow {
+    display: inline-block;
+    vertical-align: middle;
+    width: 60px;
+    font-size: 40px;
+    font-family: monospace;
+}
+
+.logo {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    vertical-align: middle;
+}
+
+.logo_type_taxi4people {
+    background-image: url(./images/taxi4people.png);
+    background-size: cover;
+}
+
+.logo_mask {
+    position: relative;
+}
+
+.logo_mask::after {
+    content: '';
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+
+    background-image: url(../common/images/mask175.png);
+    background-size: cover;
+}
+
+
 .button {
     display: table;
     height: 50px;
     width: 100%;
-    background-color: #000;
+    background-color: gray;
     margin: 20px 0;
 
     text-decoration: none;
-    text-transform: uppercase;
     text-align: center;
     color: #fff;
 
-    font-family: ff-clan-web-pro-wide,sans-serif;
-    font-weight: 400;
-    font-size: 15px;
+    font-family: Arial,sans-serif;
+    font-size: 18px;
 }
 
 .button_type_download {
@@ -47,7 +95,7 @@
     height: 100%;
 }
 
-.button__badge_platform_ios {
+.button__badge_with-padding {
     padding: 10px;
     box-sizing: border-box;
 }

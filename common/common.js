@@ -1,6 +1,7 @@
 (function(){
-    document.querySelectorAll('[data-app]')[0].href += window.location.search;
-    document.querySelectorAll('[data-web]')[0].href += window.location.search;
+    document.querySelectorAll('[data-link]').forEach(function(a){
+        a.href += window.location.search;
+    });
 
     var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
     var isAndroid = /Android/.test(navigator.userAgent);

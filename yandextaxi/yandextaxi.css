@@ -1,0 +1,19 @@
+.button {
+    font-family: Arial,sans-serif;
+    font-size: 18px;
+}
+
+.button_theme_yandextaxi {
+    background-color: #ffdc61;
+    color: #000;
+}
+
+.button_theme_yandextaxi-downdload {
+    color: #000;
+    background-color: transparent;
+}
+
+.logo_type_yandextaxi {
+    background-image: url(./images/ios.jpg);
+    background-size: cover;
+}

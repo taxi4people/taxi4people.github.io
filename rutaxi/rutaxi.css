@@ -1,0 +1,14 @@
+.button_theme_rutaxi {
+    background-color: #FFC000;
+    color: #000;
+}
+
+.button_theme_rutaxi-downdload {
+    color: #000;
+    background-color: transparent;
+}
+
+.logo_type_rutaxi {
+    background-image: url(./images/ios.jpg);
+    background-size: cover;
+}
