@@ -1,0 +1,53 @@
+.only-ios, .only-android, .only-other {
+    display: none;
+}
+
+.platform-ios .only-ios,
+.platform-android .only-android,
+.platform-other .only-other {
+    display: block;
+}
+
+.content {
+    padding: 0 20px;
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.button {
+    display: table;
+    height: 50px;
+    width: 100%;
+    background-color: #000;
+    margin: 20px 0;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+
+    font-family: ff-clan-web-pro-wide,sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.button_type_download {
+    height: 70px;
+    background-color: transparent;
+    margin: 0;
+    text-align: center;
+}
+
+.button__text {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.button__badge {
+    height: 100%;
+}
+
+.button__badge_platform_ios {
+    padding: 10px;
+    box-sizing: border-box;
+}

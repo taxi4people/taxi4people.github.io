@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Uber</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="../common/common.css">
+    <link rel="stylesheet" href="uber.css">
+</head>
+<body>
+    <section class="content">
+
+        <a class="button button_theme_uber" data-app href="uber://">
+            <span class="button__text">Открыть в приложении</span>
+        </a>
+
+        <a class="button button_theme_uber" data-web href="https://m.uber.com/">
+            <span class="button__text">Открыть веб версию</span>
+        </a>
+
+        <!-- on iOS -->
+        <div class="only-ios">
+            <a class="button button_theme_uber-downdload" href="itms-apps://itunes.apple.com/app/uber/id368677368?mt=8">
+                <span class="button__text">Скачать в Appsotre</span>
+            </a>
+        </div>
+
+        <!-- on Android -->
+        <div class="only-android">
+            <a class="button button_theme_uber-downdload" href="market://details?id=com.ubercab">
+                <span class="button__text">Скачать в Google Play</span>
+            </a>
+        </div>
+
+        <!-- on other -->
+        <div class="only-other">
+            <a class="button button_type_download" href="https://itunes.apple.com/ru/app/uber-lucse-cem-taksi/id368677368?mt=8">
+                <img class="button__badge button__badge_platform_ios" src="../common/badge/appstore.svg" alt="appstore badge">
+            </a>
+            <a class="button button_type_download" href="https://play.google.com/store/apps/details?id=com.ubercab&hl=ru">
+                <img class="button__badge" src="../common/badge/googleplay.svg" alt="googleplay badge">
+            </a>
+        </div>
+    </section>
+
+    <script src="../common/common.js"></script>
+</body>
+</html>
