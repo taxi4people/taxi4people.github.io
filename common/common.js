@@ -17,4 +17,8 @@
     } else {
         setPlatform('platform-other');
     }
+
+    if (isIOS || isAndroid) {
+        window.location.href = document.querySelectorAll('[data-link]')[0].href;
+    }
 })();
